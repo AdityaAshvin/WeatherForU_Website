@@ -1,12 +1,14 @@
 # WeatherForU
+![logo](static/img/logo.png)
+## Description
+A website which gives info about a required city's weather or the weather updates of the current location of the user. Made using Django and some API's
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-## Description
-A website which gives info about a required city's weather or the weather updates of the current location of the user. Made using Django and some API's
 ## Features of the website
 >1. Gives weather updates for any major city in the world and also gives weather updates of the current location of the user.
 >2. Weather updates include temperature, humidity, maximum temperature, minimum temperature, atmospheric pressure, and a basic description(such as "light drizzle", "mist", "cloudy" to name a few)
+>3. The local time and date of the city searched is also displayed in the navbar.
 ## Steps to run this in yoour local machine
 ### 1. Clone the repo
 > git clone https://github.com/AdityaAshvin/WeatherForU.git
