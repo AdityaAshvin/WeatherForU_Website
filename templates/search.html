@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %} {{place}}'s Weather {% endblock title %}
+
+{% block nav2link %} / {% endblock nav2link %}
+
+{% block nav2 %} Home {% endblock nav2 %}
+
+{% block nav3link %} /{% endblock nav3link %}
+
+{% block nav3 %} Date in {{place}}: {{date}} {% endblock nav3 %}
+
+{% block nav4link %} /{% endblock nav4link %}
+
+{% block nav4 %} Time in {{place}}: {{time}} {% endblock nav4 %}
+
+
+{% block body %}
+    <h1 style="text-align:center; padding-top:40px;"> Current weather in {{place}} </h1>
+
+    <article class="grid-container mt-3">
+      <div class="grid-x align-center">
+        <div class="cell medium-8">
+          <div class="blog-post">
+            <img style="padding-bottom: 20px;width:850px;height:500px;" src="{{name_photo}}">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3> Temperature: {{temp}} °C</h3>
+                </div>
+                <div class="col-sm-6">
+                    <h3> Humidity: {{humidity}}%</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3> Max Temperature: {{max_temp}}°C</h3>
+                </div>
+                <div class="col-sm-6">
+                    <h3> Min Temperature: {{min_temp}}°C</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3> Pressure: {{pressure}} hPa</h3>
+                </div>
+                <div class="col-sm-6">
+                    <h3> Wind Speed: {{wind}} m/s</h3>
+                </div>
+            </div>
+            <div class="callout" style="text-align:center;">
+              <img src="http://openweathermap.org/img/wn/{{icon}}@2x.png">
+              <h3> <strong> Description: {{desc}} <strong> <h3>
+            </div>
+          </div>
+        </div>
+        </div>
+
+{% endblock body %}
