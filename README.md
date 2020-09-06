@@ -1,7 +1,12 @@
 # WeatherForU
-![logo](static/img/officiallogo.png)
+<img src="static/img/officiallogo.png" style="height:100px; width:150px;">
 ## Description
 A website which gives info about a required city's weather or the weather updates of the current location of the user. Made using Django and some API's
+
+This is an open source project. Feel free to open issues if you find any bug or want to add some feature.
+
+[Download the App](https://adityaashvin.github.io/weatherforuweb.github.io/)
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
@@ -31,7 +36,6 @@ A website which gives info about a required city's weather or the weather update
 # Screenshots
 ## Homepage
 ![homepage1](static/img/ss/home1.JPG)
-![homepage2](static/img/ss/home2.JPG)
 ## Current Location (which in my case is Visakhapatnam)
 ![current1](static/img/ss/current1.JPG)
 ![current2](static/img/ss/current2.JPG)
@@ -41,3 +45,7 @@ A website which gives info about a required city's weather or the weather update
 ## When Chicago is searched
 ![search1](static/img/ss/search_chicago1.JPG)
 ![search2](static/img/ss/search_chicago2.JPG)
+
+### API's used:
+1 [OpenWeather](https://openweathermap.org/) - for live weather data
+2 [Pixabay](https://pixabay.com) - for city images
