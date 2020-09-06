@@ -1,5 +1,6 @@
 # WeatherForU
-<img src="static/img/officiallogo.png" style="height:100px; width:150px;">
+<img src="static/img/officiallogo.png" style="height:px;50 width:100px;">
+
 ## Description
 A website which gives info about a required city's weather or the weather updates of the current location of the user. Made using Django and some API's
 
