@@ -1,4 +1,4 @@
-# WeatherForU
+# WeatherForU Web App
 <img src="static/img/officiallogo.png" style="height:px;50 width:100px;">
 
 ## Description
